@@ -1,0 +1,141 @@
+html,body,div{
+				margin:0;
+				padding:0;
+				font-size:100%;
+			}
+			html{
+				//background:url('./6.jpg') no-repeat;
+				//background-size:cover;
+				background:#45b97c;
+				animation:bganimation 5s;
+			}
+			#loginForm{
+				height:200px;
+				width:350px;
+				position:absolute;
+				top:50%;
+				left:50%;
+				margin:-100px 0 0 -175px;
+				box-shadow:0px 0px 25px 12px #c0c0c0;
+				border:6px solid;
+				border-color:#c0c0c0;
+				border-radius:12px;
+				animation:loginanimation 5s;
+			}
+			@keyframes bganimation{
+				0% {background:#deab8a;}
+				10% {background:#f7acbc;}
+				20%{background:#987165;}
+				30%{background:#e0861a;}
+				40%{background:#00ae9d;}
+				50%{background:#008792;}
+				60%{background:#7f7522;}
+				70%{background:#f173ac;}
+				80%{background:#7c8577;}
+				90%{background:#6950a1;}
+				100%{background:#45b97c;}
+			}
+			@keyframes loginanimation{
+				0% {transform:scale3d(0,0,0);top:50%;left:50%;}
+				10% {transform:scale3d(0.1,0.1,0.1);top:25%;left:50%;}
+				20%{transform:scale3d(0.2,0.2,0.2);top:25%;left:75%;}
+				30%{transform:scale3d(0.3,0.3,0.3);top:50%;left:75%;}
+				40%{transform:scale3d(0.4,0.4,0.4);top:75%;left:75%;}
+				50%{transform:scale3d(0.5,0.5,0.5);top:75%;left:50%;}
+				60%{transform:scale3d(0.6,0.6,0.6);top:75%;left:25%;}
+				70%{transform:scale3d(0.7,0.7,0.7);top:50%;left:25%;}
+				80%{transform:scale3d(0.8,0.8,0.8);top:25%;left:25%;}
+				90%{transform:scale3d(0.9,0.9,0.9);top:25%;left:50%;}
+				100%{transform:scale3d(1,1,1);top:50%;left:50%;}
+			}
+			#loginTitle{
+				height:50px;
+				width:100%;
+				font-family:blazed,Kunstler Script"New York",Georgia;
+				font-weight:bold;
+				font-style:oblique;
+				font-size:2em;
+				text-align:center;
+				line-height:50px;
+				//-webkit-text-stroke:10px black;
+				color:white;
+				text-shadow:1px 1px 0 rgba(107,223,248,0.8),2px 2px 0 rgba(107,223,248,0.8),3px 3px 0 rgba(107,223,248,0.8),4px 4px 0 rgba(107,223,248,0.8),5px 5px 0 rgba(107,223,248,0.8);
+			}
+			#loginContent{
+				height:110px;
+				width:100%;
+				position:relative;
+			}
+			#loginButton{
+				height:40px;
+				width:100%;
+			}
+			#register{
+				height:40px;
+				width:175px;
+				float:left;
+			}
+			#login{
+				height:40px;
+				width:175px;
+				float:left;
+			}
+			#register_button{
+				height:40px;
+				width:175px;
+				background:none;
+				border-radius:6px;
+				border:1px solid;
+				border-color:#808080;
+				box-shadow:0px 0px 10px 0px #c0c0c0 inset;
+				font-weight:bold;
+			}
+			#login_button{
+				height:40px;
+				width:175px;
+				background:none;
+				border-radius:6px;
+				border:1px solid;
+				border-color:#808080;
+				box-shadow:0px 0px 10px 0px #c0c0c0 inset;
+				font-weight:bold;
+			}
+			#user_info{
+				position:absolute;
+				height:80px;
+				width:250px;
+				left:75px;
+				top:0px;
+			}
+			#user_help{
+				position:absolute;
+				height:30px;
+				width:230px;
+				left:60px;
+				top:80px;
+			}
+			label{
+				font-weight:bold;
+				width:20px;
+			}
+			#user_info input{
+				background:none;
+				width:175px;
+			}
+			input[type=checkbox]{
+				vertical-align:middle;
+				margin-top:0;
+			}
+			#user_help input,#user_help label,#user_help a{
+				line-height:30px;
+				font-size:12px;
+			}
+			img{
+				height:20px;
+				width:20px;
+				display:block;
+				float:left;
+			}
+			#user_info label{
+				display:block;
+			}
