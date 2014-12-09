@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="app.css">
+		<script src="app.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<form id="form_id" name="form_id" method="get" action="http://baidu.com" onsubmit="return checkUser()">
+			<div id="loginForm">
+				<div id="loginTitle">LOGIN</div>
+				<div id="loginContent">
+					<div id="user_info">
+						<label>Username:</label><img src="./user.png" /><input id="login_username" type="text" name="login_username" maxlength="32" placeholder="Username" />
+						<br />
+						<label>Password:</label><img src="./pwd.png" /><input id="login_password" type="password" name="login_password" maxlength="32" placeholder="Password" />
+					</div>
+					<div id="user_help">
+						<input id="login_save" type="checkbox" /><label>Remember me</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" target="_blank">Forgot password?</a>
+					</div>
+				</div>
+				<div id="loginButton">
+					<div id="register"><input id="register_button" type="button" name="regButton" value="register" onclick="register()" /></div>
+					<div id="login"><input id="login_button" type="submit" name="login_button" value="login" /></div>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>
